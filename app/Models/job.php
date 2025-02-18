@@ -9,4 +9,7 @@ class job extends Model
 {
     /** @use HasFactory<\Database\Factories\JobFactory> */
     use HasFactory;
+
+    protected $table = 'job_listing';
+    protected $fillable = ['title', 'description'];
 }
