@@ -7,6 +7,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/jobs', function (Job $job) {
-    return view('job.show', ['jobs' => $job->all()]);
+Route::get('/jobs', function () {
+    $jobs = Job::all();
+    return view('job.index', ['jobs' => $jobs]);
 });
