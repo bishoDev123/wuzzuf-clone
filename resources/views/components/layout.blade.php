@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="fixed left-0 right-0 mx-auto">
+    <div class="fixed left-0 right-0 mx-auto z-20">
         <nav class="flex justify-between items-center mt-auto p-4 text-white mx-auto backdrop-blur-sm  bg-gray-800/10">
             <img src="{{ asset('images/wuzzuf-logo.jpg.png') }}" alt="" class="w-40 h-auto">
             <ul class="flex space-x-4 mr-auto ml-4">
