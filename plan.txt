@@ -1,0 +1,4 @@
+1.make a database with data about the job which include the job title, the employer company, location, listing age, tags.
+2.display cards witht the job details.
+3.make controllers and routes to the job show.
+ 

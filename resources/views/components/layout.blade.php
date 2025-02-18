@@ -13,9 +13,8 @@
         <nav class="flex justify-between items-center mt-auto p-4 text-white mx-auto backdrop-blur-sm  bg-gray-800/10">
             <img src="{{ asset('images/wuzzuf-logo.jpg.png') }}" alt="" class="w-40 h-auto">
             <ul class="flex space-x-4 mr-auto ml-4">
-            <li>Browse Jobs <img src="{{ asset('images/down-chevron.png') }}" alt=""
-                class="inline-block w-4 h-4"></li>
-            <li>Post a Job</li>
+                <x-button href="/jobs">Browse Jobs <img src="{{ asset('images/down-chevron.png') }}" alt="" class="inline-block w-4 h-4"></x-button> 
+                <x-button href="/create">Post a job</x-button>
             </ul>
             <img class="w-10 h-10 rounded-full" src="https://picsum.photos/200/300" alt="Rounded avatar">
         </nav>
