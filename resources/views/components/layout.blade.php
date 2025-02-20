@@ -11,7 +11,9 @@
 <body>
     <div class="fixed left-0 right-0 mx-auto z-20">
         <x-nav-bar {{ $attributes }}>
-            <img src="{{ asset('images/wuzzuf-logo.jpg.png') }}" alt="" class="w-40 h-auto">
+            <a href="/">
+                <img src="{{ asset('images/wuzzuf-logo.jpg.png') }}" alt="" class="w-40 h-auto">
+            </a>
             <ul class="flex space-x-4 mr-auto ml-4">
                 <x-button href="/jobs">Browse Jobs <img src="{{ asset('images/down-chevron.png') }}" alt=""
                         class="inline-block w-4 h-4"></x-button>
