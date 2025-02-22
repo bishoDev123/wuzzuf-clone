@@ -13,7 +13,10 @@
     <br>
     <div class="mt-20">
         <div class="max-w-4xl mx-auto bg-gray-200/10 shadow-lg rounded-lg p-6">
-            <h1 class="text-2xl font-semibold text-white">Customer Support/Operations Intern</h1>
+            <div class="flex justify-between">
+                <h1 class="text-2xl font-semibold text-white">Customer Support/Operations Intern</h1>
+                <x-button color="gray" class="w-20">EDIT</x-button>
+            </div>
             <div class="flex flex-wrap items-center space-x-2 mt-2 text-sm text-gray-600">
                 <x-tag href="/jobs">Freelance / Project</x-tag>
                 <x-tag href="/jobs">Shift Based</x-tag>
@@ -47,9 +50,9 @@
                 </div>
             </div>
 
-            <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg font-semibold hover:bg-blue-700">Apply For
-                Job</button>
-                <hr class="my-6 border-t border-gray-500">
+            <x-button class="mt-4 w-full" color="blue">Apply For
+                Job</x-button>
+            <hr class="my-6 border-t border-gray-500">
             <div class="mt-6">
                 <h2 class="text-xl font-semibold text-white">Job Details</h2>
                 <div class="mt-2 space-y-2 text-gray-300">
