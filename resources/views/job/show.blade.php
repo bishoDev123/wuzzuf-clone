@@ -15,7 +15,7 @@
         <div class="max-w-4xl mx-auto bg-gray-200/10 shadow-lg rounded-lg p-6">
             <div class="flex justify-between">
                 <h1 class="text-2xl font-semibold text-white">{{ $job->title }}</h1>
-                <x-button color="gray" class="w-20">EDIT</x-button>
+                <x-button color="gray" href="/jobs/{{ $job->id }}/edit">EDIT</x-button>
             </div>
             <div class="flex flex-wrap items-center space-x-2 mt-2 text-sm text-gray-600">
                 <x-tag href="/jobs">Freelance / Project</x-tag>
@@ -50,8 +50,8 @@
                 </div>
             </div>
 
-            <x-button class="mt-4 w-full" color="blue">Apply For
-                Job</x-button>
+            <x-button class="mt-4 w-full" href="job/apply" color="blue">
+                Apply For Job</x-button>
             <hr class="my-6 border-t border-gray-500">
             <div class="mt-6">
                 <h2 class="text-xl font-semibold text-white">Job Details</h2>
