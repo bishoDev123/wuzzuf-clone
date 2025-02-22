@@ -14,7 +14,7 @@
     <div class="mt-20">
         <div class="max-w-4xl mx-auto bg-gray-200/10 shadow-lg rounded-lg p-6">
             <div class="flex justify-between">
-                <h1 class="text-2xl font-semibold text-white">Customer Support/Operations Intern</h1>
+                <h1 class="text-2xl font-semibold text-white">{{ $job->title }}</h1>
                 <x-button color="gray" class="w-20">EDIT</x-button>
             </div>
             <div class="flex flex-wrap items-center space-x-2 mt-2 text-sm text-gray-600">
@@ -23,7 +23,7 @@
                 <x-tag href="/jobs">Remote</x-tag>
             </div>
             <div class="mt-2">
-                <a href="/" class=" text-blue-600 font-medium">Connected Destinations</a>
+                <a href="/" class=" text-blue-600 font-medium">Microsoft</a>
                 <p class="text-gray-500 text-sm">Cairo, Egypt • Posted 3 days ago</p>
             </div>
 
@@ -59,8 +59,7 @@
                     <p><span class="font-medium text-gray-400">Experience Needed:</span> 1 To 2 Years</p>
                     <p><span class="font-medium text-gray-400">Career Level:</span> Student (Undergrad / Postgrad)</p>
                     <p><span class="font-medium text-gray-400">Education Level:</span> Bachelor's Degree</p>
-                    <p><span class="font-medium text-gray-400">Salary:</span> Confidential, You Are Paid According To
-                        The Number Of Hours Worked.</p>
+                    <p><span class="font-medium text-gray-400">Salary:</span> ${{ $job->salary }}/hr</p>
                     <p><span class="font-medium text-gray-400">Job Categories:</span> Customer Service/Support,
                         Operations/Management</p>
                 </div>

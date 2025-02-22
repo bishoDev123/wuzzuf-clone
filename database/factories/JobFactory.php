@@ -19,6 +19,7 @@ class JobFactory extends Factory
         return [
             'title' => $this->faker->jobTitle(),
             'description' => $this->faker->paragraph,
+            'salary' => $this->faker->randomDigit(1000, 9000),
         ];
     }
 }
