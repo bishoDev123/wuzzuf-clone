@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
 
-<body class=" bg-zinc-950">
+<body class=" bg-zinc-950 mb-5">
     <div>
         <x-layout blur="" bgColor="bg-slate-900">
 
