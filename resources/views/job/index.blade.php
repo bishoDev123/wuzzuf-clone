@@ -13,9 +13,9 @@
         </x-layout>
     </div>
     <br>
-    <div class="mt-20 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 ml-10">
+    <div class="mt-20 flex flex-col mx-10 gap-5 width-full">
         @foreach ($jobs as $job)
-            <x-card title="{{ $job->title }}" description="{{ $job->description }}" />
+            <x-card title="{{ $job->title }}" description="{{ $job->description }}" href="/jobs/{{ $job->id }}" />
         @endforeach
     </div>
 </body>
