@@ -16,6 +16,10 @@ class JobController extends Controller
         return view('job.show', ['job' => $job]);
     }
 
+    public function create() {
+        return view('job.create');
+    }
+
     public function edit(Job $job) {
         return view('job.edit', ['job' => $job]);
     }
