@@ -17,7 +17,7 @@
             <ul class="flex space-x-4 mr-auto ml-4">
                 <x-nav-button href="/jobs">Browse Jobs <img src="{{ asset('images/down-chevron.png') }}" alt=""
                         class="inline-block w-4 h-4"></x-button>
-                <x-nav-button href="/create">Post a job</x-button>
+                <x-nav-button href="/jobs/create">Post a job</x-button>
             </ul>
             <img class="w-10 h-10 rounded-full" src="https://picsum.photos/200/300" alt="Rounded avatar">
         </x-nav-bar>

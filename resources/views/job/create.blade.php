@@ -1,0 +1,1 @@
+<x-layout blur="" bg-color="bg-slate-900"></x-layout>
