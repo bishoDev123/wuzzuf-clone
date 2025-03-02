@@ -23,4 +23,9 @@ class JobController extends Controller
     public function edit(Job $job) {
         return view('job.edit', ['job' => $job]);
     }
+
+    public function store(Request $request) {
+        Job::create($request->all());
+        return redirect('/jobs');
+    }
 }
